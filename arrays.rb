@@ -1,6 +1,6 @@
-days = [Monday, Wednesday, Friday, Sunday]
+days = ["Monday", "Wednesday", "Friday", "Sunday"]
 hours = [3, 6, 8, 1,]
-amount = [5.5, 7.5. 100.25, 8.75]
+amount = [5.5, 7.5, 100.25, 8.75]
 due = [true, true, false, true]
 
 # With pop the last day (sunday) will be removed. 
@@ -14,7 +14,7 @@ hours.push
 p hours
 
 amount.shift
-p shift
+p amount
 
 due.unshift
 p due
