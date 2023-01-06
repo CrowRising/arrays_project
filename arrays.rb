@@ -4,13 +4,13 @@ amount = [5.5, 7.5, 100.25, 8.75]
 due = [true, true, false, true]
 
 # With pop the last day (sunday) will be removed. 
-## Push should return the last element but I never took it away so I am not sure the point of this.
+## Push should return the given element at the end of the array and returns the array with the pushed element.
 ### Shift will remove the float in the 0 space
-#### Unshift returns the 1st element, but I believe it means the 0 space.
+#### Unshift adds one or more  elements to the start of the array and returns the the array with the new element or the selected element to the front.
 days.pop
 p days
 
-hours.push
+hours.push(2, 5, 9)
 p hours
 
 amount.shift
