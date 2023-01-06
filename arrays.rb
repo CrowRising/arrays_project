@@ -18,3 +18,12 @@ p amount
 
 due.unshift(true)
 p due
+
+
+# I learned about the array method .sort! It returns the array sorted alphabetically.
+
+letters = ["d", "g", "b ", "m"]
+
+letters.sort!
+p letters
+
